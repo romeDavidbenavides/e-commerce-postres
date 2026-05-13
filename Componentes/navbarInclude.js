@@ -1,4 +1,4 @@
-fetch("../Componentes/navbar.html")
+fetch("/e-commerce-postres/Componentes/navbar.html")
   .then(res => res.text())
   .then(html => {
     
