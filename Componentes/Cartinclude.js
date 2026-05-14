@@ -1,4 +1,4 @@
-fetch("../Componentes/carrito.html")
+fetch("/e-commerce-postres/Componentes/carrito.html")
   .then(res => res.text())
   .then(html => {
     document.body.insertAdjacentHTML("beforeend", html);
